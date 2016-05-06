@@ -12,7 +12,7 @@ public class kaiGuanYongFa {
         Scanner scanner = new Scanner(System.in);
         int b = scanner.nextInt();
         boolean a = true;//a是一个质数
-        for (int i = 2; i <b ; i++) {
+        for (int i = 2; i <Math.sqrt(b) ; i++) {
             if(b%i==0){
                a=false;
                 break;
